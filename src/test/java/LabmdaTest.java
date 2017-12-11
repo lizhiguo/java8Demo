@@ -100,6 +100,7 @@ public class LabmdaTest {
         Map<String,List<Book>> map = books().stream().filter(book -> book.getPrice()>60).collect(Collectors.groupingBy(Book::getType));
         log.debug("git分支创建");
         log.debug("分支提交");
+        log.debug("test-->自动到分支");
     }
 
     private List<Book> books(){
