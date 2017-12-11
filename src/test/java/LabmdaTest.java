@@ -95,6 +95,12 @@ public class LabmdaTest {
         log.debug(map.toString());
     }
 
+    @Test
+    public void 按类型做map和list2() {
+        Map<String,List<Book>> map = books().stream().filter(book -> book.getPrice()>60).collect(Collectors.groupingBy(Book::getType));
+        log.debug("git分支创建");
+    }
+
     private List<Book> books(){
         List<Book> bs = new ArrayList<>();
         bs.add(new Book(1,"tomcat",50d,"服务器", LocalDate.parse("2014-05-17")));
