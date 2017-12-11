@@ -1,0 +1,8 @@
+1:java日志使用
+<dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+可以在test中打印出日志
+2：java8的api使用
