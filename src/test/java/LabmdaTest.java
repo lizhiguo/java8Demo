@@ -101,6 +101,7 @@ public class LabmdaTest {
         log.debug("git分支创建");
         log.debug("分支提交");
         log.debug("test-->自动到分支");
+        log.debug("kao");
     }
 
     private List<Book> books(){
